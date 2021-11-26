@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./component.component.css']
 })
 export class ComponentComponent implements OnInit {
-
-  constructor() { }
+public message: string;
+  constructor() { 
+    this.message="cwelcome to allu group"
+  }
 
   ngOnInit(): void {
+    this.message="iwelcome to allu group"
   }
 
 }

@@ -1,0 +1,165 @@
+.In .boat{
+    Display: inline-block;
+}
+.w-5{
+    width: 10%;
+}
+.F{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bod{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 5px;
+    
+}
+  .boat:hover{
+    background-color:darkslategrey;
+    padding: 10px 6px;
+  }
+   input[type=button]{
+       background-color: green;
+       color: white;
+       border: none;
+       border-radius: 20px;
+       padding: 6px 20px;
+       float: right;
+       
+       font-weight: bold;
+       cursor: pointer;
+}
+.relative{
+    position: relative;
+    right: -480px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rela{
+    position: relative;
+    right: -230px;
+    background-color:hotpink;
+    padding: 8px 5px;
+}
+.boundry{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.back{
+    background-color: black;
+    color: white;
+    /* padding: 5px; */
+}
+.Inn .DI{
+Display: inline-block;
+}
+  .w-1{
+      width: 60px;
+  }
+    .w-2{
+        width: 120px;
+    }
+
+.w-1:hover,.w-2:hover{
+background-color:green;
+padding-top: 6px;
+padding-bottom: 6px;
+
+}
+ .float{
+    
+    float: right;
+}  
+.bac{
+    width: 250px;
+    background-color: grey;
+    overflow: scroll;
+overflow-x: hidden;
+float: left;
+}
+.mar{
+    margin: 10px 0px;
+    font-size: 20px;
+
+}
+.marg{
+    margin: 5px 0px;
+}
+.marg:hover{
+    background-color: grey
+}
+ /* .Border{
+    border-right: 1px solid red;
+    padding: 16px 32px 32px 32px;
+    width: 99%;
+ } */
+.M{
+    margin-top: 120px;
+    Position: relative;
+    left: 40px;
+    font-size: 42px;
+}
+Input[type=button1]{
+width: 52px;
+font-size: 18px;
+padding-right: 19px;
+padding-left: 19px;
+position: relative;
+left: 40px;
+border-radius: 5px;
+font-family: 'Source Sans Pro', sans-serif;
+background-color: green;
+color: white;
+border: none;
+padding:8px 16px;
+vertical-align: middle;
+cursor: pointer;
+margin: 10px 0;
+}
+.a{
+    position: relative;
+    left: -45px;
+ vertical-align: middle;
+    
+}
+Input[type=button2]{
+    width: 52px;
+    position: relative;
+    right: -600px;
+    font-size: 18px;
+padding-right: 19px;
+padding-left: 19px;
+
+border-radius: 5px;
+font-family: 'Source Sans Pro', sans-serif;
+background-color: green;
+color: white;
+border: none;
+padding:8px 16px;
+vertical-align: middle;
+cursor: pointer;
+margin: 10px 0;
+}
+.b{
+    position: relative;
+    right: -574px;
+}
+.BODER {
+    background-color:#D9EEE1;
+    width: 57%;
+    height: 350px;
+    padding: 16px;
+    border-left: none;
+    position: relative;
+   left: 40px; 
+margin: 24px;
+    margin-left: 210px;
+    margin-right: 200px;
+}
+.bo{
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}

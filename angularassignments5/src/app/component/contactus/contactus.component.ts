@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+  public message: string=""
+  constructor() { 
   }
-
+  ngOnInit(): void { 
+    
+    
+      this.message="iwelcome to allu group"
+    
+  }
 }
