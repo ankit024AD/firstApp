@@ -1,0 +1,10 @@
+.posi{
+    position: absolute;
+   right: 200px;
+ bottom: 80px;
+}
+.BG{
+    /* border: 2px solid green; */
+    width: 40%;
+    background-color: silver;
+}

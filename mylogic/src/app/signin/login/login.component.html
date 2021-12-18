@@ -1,0 +1,34 @@
+<br>
+
+
+<div class="row ">
+  <div class="col-6 m-auto">
+    <div class="card m-auto">
+      <div class="card-header">
+        
+        <h3>Login</h3>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="secondForm" (ngSubmit)="onSubmit()" >
+          <div class="form-group col-12">
+            <label>Name</label>
+            <input class="form-control" formControlName="userName" >
+          </div>
+          <div *ngIf="!userName.valid && (userName.dirty || userName.touched)">
+            First Name is not valid
+        </div>
+          <div class="form-group col-12">
+            <label>Password</label>
+            <input class="form-control" required type="password" formControlName="password" >
+          </div>
+          <br>
+          <div class="form-group col-12">
+            <button [disabled]="!secondForm.valid" type="submit" class="btn btn-primary">Login</button>
+            <button type="button"  class="btn btn-secondary ml-2">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{{message}}

@@ -1,0 +1,13 @@
+<div class="boundry back Inn">
+
+  <nav>
+      <div class="DI w-1"><a routerLink="/home" routerLinkActive="active">home</a></div>
+      <div class="DI w-1"><a routerLink="/aboutus" routerLinkActive="active">AboutUs</a></div>
+      <div class="DI w-1"><a routerLink="/contactus" routerLinkActive="active">ContactUs</a></div>
+      <div *ngIf = "loggedIn()" class="DI w-1 float"><a routerLink="/signin/login" routerLinkActive="active">Login</a></div>
+      <div   *ngIf = "loggedIn()" class="DI w-2 float"><a routerLink="/create/createaccount" routerLinkActive="active">Createaccount</a></div>
+      <div *ngIf = "!loggedIn()" class="DI w-1 float" style ="cursor: pointer;"><a  (click) ="OnLogout()" >Logout</a></div>
+  </nav> 
+  </div>
+  <router-outlet></router-outlet>
+  

@@ -1,0 +1,55 @@
+<br>
+<div class="posi BG">
+<form [formGroup]="myfirstForm" (ngSubmit)="onSubmit()" novalidate >
+ 
+    <p>
+      <!-- <label for="firstname">First Name </label> -->
+      <input type="text" class="form-control" placeholder="FirstName" aria-label="Large" aria-describedby="inputGroup-sizing-sm" formControlName="firstName">
+       </p>
+      
+  <div *ngIf="!firstName.valid && (firstName.dirty ||firstName.touched)">
+    First Name is not valid
+</div>
+    <p>
+      <!-- <label for="lastname">Last Name </label> -->
+      <input type="text" class="form-control" placeholder="LastName" aria-label="Large" aria-describedby="inputGroup-sizing-sm" formControlName="LastName">
+    </p>
+   
+    <p>
+      <!-- <label for="email">Email </label> -->
+      <input type="text" class="form-control" placeholder="Email" aria-label="Large" aria-describedby="inputGroup-sizing-sm" formControlName="Email">
+    </p>
+    
+   <P>
+       <!-- <label for ="Age">Age</label> -->
+       <input type="number" class="form-control" placeholder="Age" aria-label="Large" aria-describedby="inputGroup-sizing-sm" formControlName="Age">
+   </P>
+    <p>
+      <!-- <label for="password">password </label> -->
+      <input type="text" id = "password" class="form-control" placeholder="password" aria-label="Large" aria-describedby="inputGroup-sizing-sm" onchange='check_pass()' formControlName="password">
+       
+    </p>
+    <p>
+        <!-- <label for="password"> Confirm password </label> -->
+        <input type="text" id = "confirmPassword" class="form-control" placeholder="Confirmpassword" aria-label="Large" aria-describedby="inputGroup-sizing-sm" onchange='check_pass()' formControlName="Confirmpassword">
+        
+      </p>
+   
+    <p>
+      <!-- <label for="phoneNumber"> phoneNumber</label> -->
+      <input type="number" class="form-control" placeholder="PhoneNumber" aria-label="Large" aria-describedby="inputGroup-sizing-sm" formControlName="PhoneNumber">
+    </p>
+   
+    <p>
+      <!-- <label for="admin"> checkbox</label> -->
+      <input type="checkbox" name="admin" value="admin"> Is admin<br>
+    </p>
+    <p>{{myfirstForm.valid}} </p>
+    <p>
+      <button id="submit" class="btn btn-primary" type="submit"  [disabled]="!myfirstForm.valid" >Submit</button>
+      </p>
+      
+     
+     
+    </form>
+  </div>

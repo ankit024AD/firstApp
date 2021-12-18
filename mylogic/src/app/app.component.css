@@ -1,0 +1,23 @@
+.boundry{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.back{
+    background-color: black;
+    color: white;
+    /* padding: 5px; */
+}
+.Inn .DI{
+    Display: inline-block;
+    }
+    .w-1{
+        width: 100px;
+    }
+    .float{
+    
+        float: right;
+    }  
+    .w-2{
+        width: 150px;
+    }
